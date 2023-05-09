@@ -10,6 +10,7 @@ point2=np.float32([[0,0],[0,width],[height,0],[height,width]]);
 #join the points with original width and heigth
 matrix=c.getPerspectiveTransform(point1,point2)
 image1=c.warpPerspective(image,matrix,(width,height))
+print('hello')
 
 
 
