@@ -12,7 +12,6 @@ matrix=c.getPerspectiveTransform(point1,point2)
 image1=c.warpPerspective(image,matrix,(width,height))
 
 
-
 c.imshow("Demo",image1)
 while True:
     if c.waitKey(1) & 0xFF == ord('z'):
